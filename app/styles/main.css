@@ -1,3 +1,21 @@
+.main-images {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.main-image {
+  border: 3px solid #FFFFF0;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+  float: left;
+}
+
+.main-image > img {
+  max-width: 250px;
+  max-height: 250px;
+}
+
 /* Space out content a bit */
 body {
   padding-top: 20px;
@@ -43,6 +61,7 @@ body {
 
 /* Main marketing message and sign up button */
 .jumbotron {
+  display: inline-block;
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
 }
