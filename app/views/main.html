@@ -1,6 +1,8 @@
 <div class="jumbotron main-images">
-  <div class="main-image" ng-repeat="image in mainImages">
-    <img src="{{image.src}}" alt="{{image.alt}}">
+  <div class="main-image" ng-repeat="toy in mainToys">
+    <a href={{"#/toys/" + toy.id}}>
+      <img src="{{toy.src}}" alt="{{toy.alt}}" class="toy-image">
+    </a>
   </div>
 </div>
 

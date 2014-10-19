@@ -11,7 +11,7 @@
   float: left;
 }
 
-.main-image > img {
+.toy-image {
   max-width: 250px;
   max-height: 250px;
 }

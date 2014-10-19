@@ -10,7 +10,7 @@
 angular.module('frecklesToysApp')
   .controller('MainCtrl', function ($scope) {
   	var alt = "Игрушки от Веснушки";
-    $scope.mainImages = [{
+    $scope.mainToys = [{
     	"src": "http://cs617226.vk.me/v617226514/1f4d3/gf8r-m08Djc.jpg",
     	"alt": alt
     }, {
