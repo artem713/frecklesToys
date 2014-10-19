@@ -1,12 +1,6 @@
 <div class="jumbotron main-images">
-  <div class="main-image">
-    <img src="http://cs617226.vk.me/v617226514/1f4d3/gf8r-m08Djc.jpg" alt="">
-  </div>
-  <div class="main-image">
-    <img src="http://cs605426.vk.me/v605426565/7d2e/HKBAHFnHyrA.jpg" alt="">
-  </div>
-  <div class="main-image">
-    <img src="http://cs616630.vk.me/v616630565/14b42/GhtDsLFCvYE.jpg" alt="">
+  <div class="main-image" ng-repeat="image in mainImages">
+    <img src="{{image.src}}" alt="{{image.alt}}">
   </div>
 </div>
 
