@@ -1,13 +1,20 @@
+body {
+  background: url("../images/light_grey_blue.png");
+}
+
+#main-image, about-ft {
+  display: inline-block;
+}
+
 .main-images {
   display: inline-block;
   margin-bottom: 0;
 }
 
 .main-image {
-  border: 3px solid #FFFFF0;
+  max-width: 700px;
+  border: 3px solid #6c3d16;
   display: inline-block;
-  margin-left: 5px;
-  margin-right: 5px;
   float: left;
 }
 

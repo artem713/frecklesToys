@@ -1,0 +1,24 @@
+.aboutFt-wrap {
+  margin-top: 10px;
+  padding: 15px;
+  background-color: white;
+  border: 3px solid #6c3d16;
+}
+
+.aboutFt-wrap>h4 {
+  text-align: center;
+}
+
+.aboutFt-wrap>p {
+  font-size: x-large;
+}
+
+@font-face {
+  font-family: "MarckScript-Regular";
+  src: url("../fonts/MarckScript-Regular.ttf") format("truetype");
+}
+
+p, h4 {
+  font-family: "MarckScript-Regular";
+  color: #6c3d16;
+}

@@ -1,0 +1,14 @@
+.header {
+  background: rgba(248, 203, 156, 0.8);
+  max-width: 100%;
+  width: 100%;
+  border-top: 3px solid #6c3d16;
+  border-bottom: 3px solid #6c3d16;
+  margin-bottom: 15px;
+  padding: 5px 0 5px 0;
+}
+.header-image {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}

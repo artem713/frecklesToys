@@ -8,8 +8,7 @@
  *
  * Main module of the application.
  */
-angular
-  .module('frecklesToysApp', [
+var app = angular.module('frecklesToysApp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
@@ -31,3 +30,9 @@ angular
         redirectTo: '/'
       });
   });
+app.directive("aboutFt", function(){
+  return {
+    restrict: "E",
+    templateUrl: "views/aboutFt.html"
+  };
+});

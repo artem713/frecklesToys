@@ -13,27 +13,23 @@
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/aboutFt.css">
+    <link rel="stylesheet" href="styles/header.css">
     <!-- endbuild -->
+    <!--<link href=' http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>-->
   </head>
   <body ng-app="frecklesToysApp">
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <!-- Add your site or application content here -->
-    <div class="container">
-      <div class="header">
-        <ul class="nav nav-pills pull-right">
-          <li class="active"><a ng-href="#">Главная</a></li>
-          <li><a ng-href="#/about">О мастере</a></li>
-        </ul>
-        <h3 class="text-muted">Игрушки от Веснушки</h3>
-      </div>
-
+    <div class="header">
+      <img src="images/ft_logo_pink.png" class="header-image">
+    </div>
+    <div class="container backPattern">
       <div ng-view=""></div>
-
       <div class="footer">
-        <p><span class="glyphicon glyphicon-heart"></span> Сенаторова Ольга</p>
+        <p> Сенаторова Ольга</p>
       </div>
     </div>
 

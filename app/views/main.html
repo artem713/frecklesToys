@@ -1,14 +1,6 @@
-<div class="jumbotron main-images">
-  <div class="main-image" ng-repeat="toy in mainToys">
-    <a href={{"#/toys/" + toy.id}}>
-      <img src="{{toy.src}}" alt="{{toy.alt}}" class="toy-image">
-    </a>
+<section id="main-image">
+  <div id="main-image-wrap">
+    <img src="images/main/{{mainImage}}" class="main-image">
   </div>
-</div>
-
-<div class="row marketing">
-  <h4>Что такое Игрушки от Веснушки?</h4>
-  <p>
-    Игрушки от Веснушки - это множество игрушек и сувениров, каждая из которых может быть отличным подарком, интерьерным решением для Вашего дома или же просто радостью для Вас! Каждая игрушка индивидуальна, ведь все они сделаны вручную! Надеюсь что каждый посетитель найдёт здесь что нибудь для себя!
-  </p>
-</div>
+</section>
+<about-ft></about-ft>
