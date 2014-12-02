@@ -5,7 +5,7 @@
   border: 3px solid #6c3d16;
 }
 
-.aboutFt-wrap>h4 {
+.aboutFt-wrap>h4, h3, h2, h1 {
   text-align: center;
 }
 
@@ -18,7 +18,20 @@
   src: url("../fonts/MarckScript-Regular.ttf") format("truetype");
 }
 
-p, h4 {
+p, h4, h3, h2, h1 {
   font-family: "MarckScript-Regular";
   color: #6c3d16;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+}
+
+.phone:before {
+  content: '';
+  background: url(../images/icons.png) no-repeat 0 -39px;
+  width: 16px;
+  height: 15px;
+  z-index: 3;
+  position: absolute;
+  top: 3px;
+  left: 0px;
 }

@@ -1,5 +1,35 @@
 body {
   background: url("../images/light_grey_blue.png");
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+div#wrapper {
+  min-height: 100%;
+  position: relative;
+}
+
+.container.backPattern {
+  display: block;
+  padding-bottom: 150px;
+}
+
+.header nav {
+  border-top: 3px solid #6c3d16;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 10px 35px 0 35px;
+  font-family: "MarckScript-Regular";
+  color: #6c3d16;
+  font-size: x-large;
 }
 
 #main-image, about-ft {
@@ -26,7 +56,6 @@ body {
 /* Space out content a bit */
 body {
   padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */

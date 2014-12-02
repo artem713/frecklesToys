@@ -1,0 +1,6 @@
+<section class="toys_wrap">
+  <a ng-href={{"#/category/"+category+"/"+toy.id}} class="toy" ng-repeat="toy in toys">
+    <img src={{"images/toys/"+category+"/"+toy.id+".jpg"}} class="toy_image">
+    <p class="toy_name">{{toy.name}}</p>
+  </a>
+</section>

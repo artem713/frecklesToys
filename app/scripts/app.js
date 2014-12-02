@@ -26,6 +26,18 @@ var app = angular.module('frecklesToysApp', [
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
       })
+      .when('/category', {
+        templateUrl: 'views/category.html',
+        controller: 'CategoryCtrl'
+      })
+      .when('/category/:cat', {
+        templateUrl: 'views/toys.html',
+        controller: 'ToysCtrl'
+      })
+      .when('/category/:cat/:id', {
+        templateUrl: 'views/toy.html',
+        controller: 'ToyCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
