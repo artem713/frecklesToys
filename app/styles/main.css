@@ -1,3 +1,10 @@
+.myClass1 {
+  opacity: 0;
+}
+.myClass2 {
+  opacity: 1;
+}
+
 body {
   background: url("../images/light_grey_blue.png");
   height: 100%;
@@ -42,6 +49,13 @@ nav a {
 }
 
 .main-image {
+
+  /*-webkit-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+  transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;*/
+
+  transition:all linear 0.5s;
+  -webkit-transition:all linear 0.5s;
+
   max-width: 700px;
   border: 3px solid #6c3d16;
   display: inline-block;
