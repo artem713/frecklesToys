@@ -17,7 +17,7 @@ angular.module('frecklesToysApp')
     };
     $scope.mainImage = "d_B_jvca2bw.jpg";
 
-    $interval(function(){
+    /*$interval(function(){
       var randomIndex = getRandomInt(0, $scope.toys.length - 1);
       var randomToy = $scope.toys[randomIndex];
       if ($scope.mainImage === randomToy.img.name) {
@@ -31,5 +31,5 @@ angular.module('frecklesToysApp')
       }
       console.log(randomToy.img.name);
       //$scope.mainImageSrc = "#/category/" + randomToy.category + "/" + randomToy.id;
-    }, 5000);
+    }, 5000);*/
 });

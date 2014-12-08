@@ -3,47 +3,80 @@
   "category": "felt",
   "name": "Микки и Минни Маусы",
   "description": "Фетровые магнитики Микки и Минни Маусы:) Каждый размером 6х6 см.",
-  "img": ["images/web-projects/google.jpg"]
+  "materials": "фетр, холлофайбер",
+  "price": "25 ₴",
+  "img": ["1.jpg"]
 }, {
   "id": "2",
   "category": "felt",
   "name": "Винсент и Джулс",
   "description": "What does Marsellus Wallace look like?",
-  "img": ["images/web-projects/google.jpg"]
+  "materials": "фетр, холлофайбер",
+  "price": "25 ₴",
+  "img": ["2.jpg"]
 }, {
-  "id": "1",
+  "id": "3",
   "category": "felt",
-  "name": "Микки и Минни Маусы",
-  "description": "Фетровые магнитики Микки и Минни Маусы:) Каждый размером 6х6 см.",
-  "img": ["images/web-projects/google.jpg"]
+  "name": "Дед Мороз",
+  "description": "Хо-хо-хо! С Новым Годом!!!",
+  "materials": "фетр, холлофайбер",
+  "price": "25 ₴",
+  "img": ["DSC_0842.JPG", "DSC_0844.JPG", "DSC_0847.JPG"]
 }, {
-  "id": "2",
+  "id": "4",
   "category": "felt",
-  "name": "Винсент и Джулс",
-  "description": "What does Marsellus Wallace look like?",
-  "img": ["images/web-projects/google.jpg"]
+  "name": "Ёлочка",
+  "description": "Christmas tree",
+  "materials": "фетр, холлофайбер",
+  "price": "25 ₴",
+  "img": ["DSC_0852.JPG", "DSC_0854.JPG", "DSC_0855.JPG"]
 }, {
-  "id": "1",
+  "id": "5",
   "category": "felt",
-  "name": "Микки и Минни Маусы",
-  "description": "Фетровые магнитики Микки и Минни Маусы:) Каждый размером 6х6 см.",
-  "img": ["images/web-projects/google.jpg"]
+  "name": "Мишки",
+  "description": "Фетровые мишки",
+  "materials": "фетр, холлофайбер",
+  "price": "25 ₴",
+  "img": ["DSC_0857.JPG", "DSC_0858.JPG", "DSC_0859.JPG"]
 }, {
-  "id": "2",
+  "id": "6",
   "category": "felt",
-  "name": "Винсент и Джулс",
-  "description": "What does Marsellus Wallace look like?",
-  "img": ["images/web-projects/google.jpg"]
+  "name": "Овечки",
+  "description": "",
+  "materials": "фетр, холлофайбер",
+  "price": "25 ₴",
+  "img": ["DSC_0818.JPG", "DSC_0824.JPG", "DSC_0823.JPG", "DSC_0826.JPG", "DSC_0827.JPG",
+    "DSC_0828.JPG", "DSC_0830.JPG", "DSC_0832.JPG", "DSC_0834.JPG", "DSC_0838.JPG"]
 }, {
-  "id": "1",
+  "id": "7",
   "category": "felt",
-  "name": "Микки и Минни Маусы",
-  "description": "Фетровые магнитики Микки и Минни Маусы:) Каждый размером 6х6 см.",
-  "img": ["images/web-projects/google.jpg"]
+  "name": "Олени",
+  "description": "",
+  "materials": "фетр, холлофайбер",
+  "price": "25 ₴",
+  "img": ["DSC_0863.JPG", "DSC_0864.JPG"]
 }, {
-  "id": "2",
+  "id": "8",
   "category": "felt",
-  "name": "Винсент и Джулс",
-  "description": "What does Marsellus Wallace look like?",
-  "img": ["images/web-projects/google.jpg"]
+  "name": "Панда",
+  "description": "",
+  "materials": "фетр, холлофайбер",
+  "price": "25 ₴",
+  "img": ["DSC_0849.JPG"]
+}, {
+  "id": "9",
+  "category": "felt",
+  "name": "Варежки",
+  "description": "",
+  "materials": "фетр, холлофайбер",
+  "price": "25 ₴",
+  "img": ["DSC_0867.JPG", "DSC_0868.JPG"]
+}, {
+  "id": "10",
+  "category": "felt",
+  "name": "Совы",
+  "description": "",
+  "materials": "фетр, холлофайбер",
+  "price": "25 ₴",
+  "img": ["DSC_0851.JPG"]
 }]

@@ -1,6 +1,18 @@
+<!--<div id="search_container" class="search_container">
+  <input ng-model="query" placeholder="Микки Маус">
+</div>-->
 <section class="toys_wrap">
-  <a ng-href={{"#/category/"+category+"/"+toy.id}} class="toy" ng-repeat="toy in toys">
-    <img src={{"images/toys/"+category+"/"+toy.id+".jpg"}} class="toy_image">
-    <p class="toy_name">{{toy.name}}</p>
-  </a>
+    <div ng-href={{"#/category/"+category+"/"+toy.id}} class="toy" ng-repeat="toy in toys | filter:query">
+      <!--<div id="tools_container" class="tools_container">
+        <a id="3d" href="">3D View</a>
+      </div>-->
+      <img src={{"images/toys/"+category+"/"+img}} class="toy_image" ng-repeat="img in toy.img">
+      <p class="toy-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni placeat, provident. Ad amet doloremque earum exercitationem fuga hic laudantium nesciunt quibusdam, repellendus, repudiandae tempore totam velit! Dolores iusto nemo qui.</p>
+      <div id="additional_info" class="additional_info">
+        <p class="materials">Материалы: {{toy.materials}}</p>
+        <div id="price" class="price">
+          <p id="price_caption">Стоимость: {{toy.price}} за 1 игрушку</p>
+        </div>
+      </div>
+    </div>
 </section>
