@@ -1,17 +1,109 @@
+.header-image-small {
+  max-height: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.header-fixed-small {
+  border-top: none !important;
+}
+
+.container-fixed-small {
+  margin-top: 50px !important;
+}
+
+.header-fixed {
+  position: fixed;
+  top: 0;
+}
+
+.container-fixed {
+  margin-top: 250px;
+}
+
+.fixed-menu {
+  background: rgba(248, 203, 156, 1);
+}
+
+@keyframes changingColor {
+  0% {
+    background: rgba(253, 83, 253, 0.5);
+  }
+  16% {
+    background: rgba(83, 83, 253, 0.5);
+  }
+  33% {
+    background: rgba(83, 253, 253, 0.5);
+  }
+  49% {
+    background: rgba(83, 253, 83, 0.5);
+  }
+  65% {
+    background: rgba(253, 253, 83, 0.5);
+  }
+  83% {
+    background: rgba(253, 83, 83, 0.5);
+  }
+  100% {
+    background: rgba(253, 83, 253, 0.5);
+  }
+}
+
+@keyframes changingColorNoOpacity {
+  0% {
+    background: rgba(253, 83, 253, 1);
+  }
+  16% {
+    background: rgba(83, 83, 253, 1);
+  }
+  33% {
+    background: rgba(83, 253, 253, 1);
+  }
+  49% {
+    background: rgba(83, 253, 83, 1);
+  }
+  65% {
+    background: rgba(253, 253, 83, 1);
+  }
+  83% {
+    background: rgba(253, 83, 83, 1);
+  }
+  100% {
+    background: rgba(253, 83, 253, 0.5);
+  }
+}
+
+.changeColorAnimation {
+  animation-name: changingColor;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 120s;
+  animation-direction: normal;
+}
+.changeColorAnimationNoOpacity {
+  animation-name: changingColorNoOpacity;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 120s;
+  animation-direction: normal;
+}
+
 .header {
-  background: rgba(248, 203, 156, 0.8);
+  transition: background 1s ease-in-out;
   max-width: 100%;
   width: 100%;
   border-top: 3px solid #6c3d16;
   border-bottom: 3px solid #6c3d16;
   margin-bottom: 15px;
-  padding: 5px 0 5px 0;
+  z-index: 51;
 }
+
 .header-image {
+  transition: max-height 0.5s;
   margin-left: auto;
   margin-right: auto;
   display: block;
-  max-height: 235px;
+  max-height: 175px;
+  margin-bottom: 10px;
 }
 
 .footer {
@@ -22,12 +114,14 @@
   width: 100%;
   border-top: 3px solid #6c3d16;
   padding: 15px;
-  margin-top: 15px;
   bottom: 0;
   left: 0;
 }
-.footer-right {
-  float: right;
+
+.footer-content {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
 }
 
 .social-account {

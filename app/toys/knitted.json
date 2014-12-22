@@ -1,0 +1,82 @@
+[{
+  "id": "1",
+  "category": "knitted",
+  "name": "",
+  "description": "",
+  "materials": "фетр, холлофайбер",
+  "price": "25 ₴",
+  "img": ["1.jpg"]
+}, {
+  "id": "2",
+  "category": "knitted",
+  "name": "",
+  "description": "",
+  "materials": "фетр, холлофайбер",
+  "price": "25 ₴",
+  "img": ["2.jpg"]
+}, {
+  "id": "3",
+  "category": "knitted",
+  "name": "",
+  "description": "",
+  "materials": "фетр, холлофайбер",
+  "price": "25 ₴",
+  "img": ["DSC_0842.JPG", "DSC_0844.JPG", "DSC_0847.JPG"]
+}, {
+  "id": "4",
+  "category": "knitted",
+  "name": "",
+  "description": "",
+  "materials": "фетр, холлофайбер",
+  "price": "25 ₴",
+  "img": ["DSC_0852.JPG", "DSC_0854.JPG", "DSC_0855.JPG"]
+}, {
+  "id": "5",
+  "category": "knitted",
+  "name": "",
+  "description": "",
+  "materials": "фетр, холлофайбер",
+  "price": "25 ₴",
+  "img": ["DSC_0857.JPG", "DSC_0858.JPG", "DSC_0859.JPG"]
+}, {
+  "id": "6",
+  "category": "knitted",
+  "name": "Смешная овечка",
+  "description": "Смешная и невероятно очаровательная овечка, мягкая вязанная игрушка, станет замечательным и приятным новогодним подарком (или дополнением к основному подарку) для Ваших родных, друзей, коллег и просто хороших знакомых.",
+  "materials": "фетр, холлофайбер",
+  "price": "25 ₴",
+  "img": ["DSC_0818.JPG", "DSC_0824.JPG", "DSC_0823.JPG", "DSC_0826.JPG", "DSC_0827.JPG",
+    "DSC_0828.JPG", "DSC_0830.JPG", "DSC_0832.JPG", "DSC_0834.JPG", "DSC_0838.JPG"]
+}, {
+  "id": "7",
+  "category": "knitted",
+  "name": "",
+  "description": "",
+  "materials": "фетр, холлофайбер",
+  "price": "25 ₴",
+  "img": ["DSC_0863.JPG", "DSC_0864.JPG"]
+}, {
+  "id": "8",
+  "category": "knitted",
+  "name": "",
+  "description": "",
+  "materials": "фетр, холлофайбер",
+  "price": "25 ₴",
+  "img": ["DSC_0849.JPG"]
+}, {
+  "id": "9",
+  "category": "knitted",
+  "name": "",
+  "description": "",
+  "materials": "фетр, холлофайбер",
+  "price": "25 ₴",
+  "img": ["DSC_0867.JPG", "DSC_0868.JPG"]
+}, {
+  "id": "10",
+  "category": "knitted",
+  "name": "",
+  "description": "",
+  "materials": "фетр, холлофайбер",
+  "price": "25 ₴",
+  "img": ["DSC_0851.JPG"]
+}]

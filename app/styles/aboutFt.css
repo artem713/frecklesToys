@@ -21,6 +21,7 @@
 p, h4, h3, h2, h1 {
   font-family: "MarckScript-Regular";
   color: #6c3d16;
+  margin-bottom: 0;
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
 }

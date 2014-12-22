@@ -1,12 +1,63 @@
-.myClass1 {
-  opacity: 0;
+.what-is-ft {
+  border-top: 3px solid #6c3d16;
+  border-bottom: 3px solid #6c3d16;
+  background: rgba(248, 203, 156, 0.8);
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 0;
 }
-.myClass2 {
-  opacity: 1;
+.what-is-ft-wrap {
+  padding-bottom: 125px;
+  margin-top: 15px;
+}
+.what-is-ft-description-wrap {
+  background-color: white;
+  padding: 35px;
+}
+.what-is-ft-description {
+  font-size: x-large;
+}
+.main-additional-images-wrap {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+.main-additional-images{
+  max-width: 115px;
+  max-height: 175px;
+  border: 1px solid #6c3d16;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+}
+.main-additional-images:hover {
+  cursor: pointer;
+  transform: scale(3);
+}
+.main-wrap {
+  flex: 1;
+  z-index: 10;
+}
+.main-wrap>p {
+  background: white;
+  border: 3px solid #6c3d16;
+  margin: 15px;
+}
+.t3d {
+  max-width: 250px;
+  z-index: 11;
+  opacity: 1 !important;
+}
+.int3d {
+  height: 360px;
 }
 
 body {
-  background: url("../images/light_grey_blue.png");
+  /*background: url("../images/1light_grey_blue.png");*/
+  /*background: url("../images/gridme.png");*/
+  /*background: url("../images/rockywall.png");*/
+  background: url("../images/subtle_white_feathers.png");
   height: 100%;
 }
 
@@ -21,14 +72,16 @@ div#wrapper {
 
 .container.backPattern {
   display: block;
-  padding-bottom: 150px;
+  padding-bottom: 15px;
 }
 
 .header nav {
   border-top: 3px solid #6c3d16;
   display: flex;
+  flex-flow: row wrap;
   justify-content: center;
-  margin-top: 10px;
+  z-index: 49;
+  /*margin-top: 10px;*/
 }
 
 nav a {
@@ -40,7 +93,10 @@ nav a {
 }
 
 #main-image, about-ft {
-  display: inline-block;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+  align-items: flex-start;
 }
 
 .main-images {
@@ -109,30 +165,10 @@ body {
   margin: 30px 0;
 }
 
-/* Main marketing message and sign up button */
-.jumbotron {
-  display: inline-block;
-  text-align: center;
-  border-bottom: 1px solid #e5e5e5;
-}
-.jumbotron .btn {
-  font-size: 21px;
-  padding: 14px 24px;
-}
-
-/* Supporting marketing content */
-.marketing {
-  margin: 40px 0;
-}
-.marketing p + h4 {
-  margin-top: 28px;
-}
-
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   /* Remove the padding we set earlier */
   .header,
-  .marketing,
   .footer {
     padding-left: 0;
     padding-right: 0;
@@ -140,9 +176,5 @@ body {
   /* Space out the masthead */
   .header {
     margin-bottom: 30px;
-  }
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
   }
 }

@@ -2,7 +2,7 @@
   "id": "1",
   "category": "felt",
   "name": "Микки и Минни Маусы",
-  "description": "Фетровые магнитики Микки и Минни Маусы:) Каждый размером 6х6 см.",
+  "description": "Микки Маус - один из первых персонажей Уолта Диснея. Веселый и смешной мышонок стал любимым персонажем многих поколений во всем мире. Данный магнитик будет хорошим сувениром для любителей этого мышонка",
   "materials": "фетр, холлофайбер",
   "price": "25 ₴",
   "img": ["1.jpg"]
@@ -10,7 +10,7 @@
   "id": "2",
   "category": "felt",
   "name": "Винсент и Джулс",
-  "description": "What does Marsellus Wallace look like?",
+  "description": "What does Marsellus Wallace look like? Дання парочка не оставит равнодушными поклоников фильма 'Криминальное чтиво'",
   "materials": "фетр, холлофайбер",
   "price": "25 ₴",
   "img": ["2.jpg"]
@@ -34,7 +34,7 @@
   "id": "5",
   "category": "felt",
   "name": "Мишки",
-  "description": "Фетровые мишки",
+  "description": "Фетровые мишки многут быть игрушкой на елку или как подвеска в машину ",
   "materials": "фетр, холлофайбер",
   "price": "25 ₴",
   "img": ["DSC_0857.JPG", "DSC_0858.JPG", "DSC_0859.JPG"]
@@ -42,16 +42,16 @@
   "id": "6",
   "category": "felt",
   "name": "Овечки",
-  "description": "",
+  "description": "Могут быть игрушкой на елку, подвеска в машину или магнитиком на холодильник ",
   "materials": "фетр, холлофайбер",
   "price": "25 ₴",
   "img": ["DSC_0818.JPG", "DSC_0824.JPG", "DSC_0823.JPG", "DSC_0826.JPG", "DSC_0827.JPG",
-    "DSC_0828.JPG", "DSC_0830.JPG", "DSC_0832.JPG", "DSC_0834.JPG", "DSC_0838.JPG"]
+    "DSC_0828.JPG", "DSC_0830.JPG", "DSC_0832.JPG"]
 }, {
   "id": "7",
   "category": "felt",
   "name": "Олени",
-  "description": "",
+  "description": "Многут быть игрушкой на елку или как подвеска в машину ",
   "materials": "фетр, холлофайбер",
   "price": "25 ₴",
   "img": ["DSC_0863.JPG", "DSC_0864.JPG"]
@@ -59,7 +59,7 @@
   "id": "8",
   "category": "felt",
   "name": "Панда",
-  "description": "",
+  "description": "Отличный магнитик на холодильник",
   "materials": "фетр, холлофайбер",
   "price": "25 ₴",
   "img": ["DSC_0849.JPG"]
@@ -67,7 +67,7 @@
   "id": "9",
   "category": "felt",
   "name": "Варежки",
-  "description": "",
+  "description": "многут быть игрушкой на елку или как подвеска в машину ",
   "materials": "фетр, холлофайбер",
   "price": "25 ₴",
   "img": ["DSC_0867.JPG", "DSC_0868.JPG"]
@@ -75,7 +75,7 @@
   "id": "10",
   "category": "felt",
   "name": "Совы",
-  "description": "",
+  "description": "Хороший презент для любителей сов",
   "materials": "фетр, холлофайбер",
   "price": "25 ₴",
   "img": ["DSC_0851.JPG"]

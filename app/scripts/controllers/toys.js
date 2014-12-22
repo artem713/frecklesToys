@@ -10,9 +10,6 @@
 angular.module("frecklesToysApp")
   .controller("ToysCtrl", function ($scope, $http, $routeParams) {
     $scope.category = $routeParams.cat;
-    var getRandomInt = function(min, max) {
-      return Math.floor(Math.random() * (max - min + 1)) + min;
-    };
     var onLoaded = function(toys) {
       $scope.toys = toys;
       $scope.activeIndex = {};

@@ -7,7 +7,7 @@
         <a id="3d" href="">3D View</a>
       </div>-->
       <img src={{"images/toys/"+category+"/"+img}} class="toy_image" ng-repeat="img in toy.img">
-      <p class="toy-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni placeat, provident. Ad amet doloremque earum exercitationem fuga hic laudantium nesciunt quibusdam, repellendus, repudiandae tempore totam velit! Dolores iusto nemo qui.</p>
+      <p class="toy-description">{{toy.description}}</p>
       <div id="additional_info" class="additional_info">
         <p class="materials">Материалы: {{toy.materials}}</p>
         <div id="price" class="price">

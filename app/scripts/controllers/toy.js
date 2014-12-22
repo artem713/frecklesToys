@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /**
  * @ngdoc function
@@ -7,7 +7,7 @@
  * # AboutCtrl
  * Controller of the frecklesToysApp
  */
-angular.module('frecklesToysApp')
-  .controller('ToyCtrl', function ($scope, $routeParams) {
+angular.module("frecklesToysApp")
+  .controller("ToyCtrl", function ($scope, $routeParams) {
     $scope.toyId = $routeParams.id;
   });

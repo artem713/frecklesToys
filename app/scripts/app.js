@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /**
  * @ngdoc overview
@@ -8,38 +8,38 @@
  *
  * Main module of the application.
  */
-var app = angular.module('frecklesToysApp', [
-    'ngAnimate',
-    'ngCookies',
-    'ngResource',
-    'ngRoute',
-    'ngSanitize',
-    'ngTouch'
+var app = angular.module("frecklesToysApp", [
+    "ngAnimate",
+    "ngCookies",
+    "ngResource",
+    "ngRoute",
+    "ngSanitize",
+    "ngTouch"
   ])
   .config(function ($routeProvider) {
     $routeProvider
-      .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
+      .when("/", {
+        templateUrl: "views/main.html",
+        controller: "MainCtrl"
       })
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl'
+      .when("/about", {
+        templateUrl: "views/about.html",
+        controller: "AboutCtrl"
       })
-      .when('/category', {
-        templateUrl: 'views/category.html',
-        controller: 'CategoryCtrl'
+      .when("/category", {
+        templateUrl: "views/category.html",
+        controller: "CategoryCtrl"
       })
-      .when('/category/:cat', {
-        templateUrl: 'views/toys.html',
-        controller: 'ToysCtrl'
+      .when("/category/:cat", {
+        templateUrl: "views/toys.html",
+        controller: "ToysCtrl"
       })
-      .when('/category/:cat/:id', {
-        templateUrl: 'views/toy.html',
-        controller: 'ToyCtrl'
+      .when("/category/:cat/:id", {
+        templateUrl: "views/toy.html",
+        controller: "ToyCtrl"
       })
       .otherwise({
-        redirectTo: '/'
+        redirectTo: "/"
       });
   });
 app.directive("aboutFt", function(){
@@ -47,4 +47,18 @@ app.directive("aboutFt", function(){
     restrict: "E",
     templateUrl: "views/aboutFt.html"
   };
+});
+$(document).ready(function () {
+  $(window).scroll(function () {
+    var st = $(this).scrollTop();
+    if (st === 0) {
+      $(".header").removeClass("header-fixed-small");
+      $(".header").find("img").removeClass("header-image-small");
+      $(".backPattern").removeClass("container-fixed-small");
+    } else {
+      $(".header").addClass("header-fixed-small");
+      $(".header").find("img").addClass("header-image-small");
+      $(".backPattern").addClass("container-fixed-small");
+    }
+  });
 });
