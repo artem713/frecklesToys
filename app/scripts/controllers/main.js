@@ -8,7 +8,7 @@
  * Controller of the frecklesToysApp
  */
 angular.module("frecklesToysApp")
-  .controller("MainCtrl", function ($scope, $http) {
+  .controller("MainCtrl", function ($scope, $http, localStorageService) {
 		var int3d = {
       frames: 10, // The total number of images to be used as frames. The higher, the smoother your interaction will be. The default value is 10 frames.
       cursor: "move", // The CSS style to indicate what cursor will show when the user hover the object. The default value is "move"

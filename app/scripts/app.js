@@ -14,8 +14,12 @@ var app = angular.module("frecklesToysApp", [
     "ngResource",
     "ngRoute",
     "ngSanitize",
-    "ngTouch"
+    "ngTouch",
+    "LocalStorageModule"
   ])
+  .config(["localStorageServiceProvider", function(localStorageServiceProvider){
+    localStorageServiceProvider.setPrefix("ls");
+  }])
   .config(function ($routeProvider) {
     $routeProvider
       .when("/", {
@@ -37,6 +41,10 @@ var app = angular.module("frecklesToysApp", [
       .when("/category/:cat/:id", {
         templateUrl: "views/toy.html",
         controller: "ToyCtrl"
+      })
+      .when("/favorites", {
+        templateUrl: "views/toys.html",
+        controller: "ToysCtrl"
       })
       .otherwise({
         redirectTo: "/"

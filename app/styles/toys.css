@@ -21,6 +21,31 @@
   animation-direction: alternate;
 }*/
 
+.tools_container {
+  width: 100%;
+  padding: 5px;
+}
+.favorite {
+  -webkit-filter: grayscale(0) !important;
+  -ms-filter: grayscale(0) !important;
+  -moz-filter: grayscale(0) !important;
+  filter: grayscale(0) !important;
+}
+.favorite_image {
+  float: right;
+  cursor: pointer;
+  -webkit-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.favorite_image:hover {
+  -webkit-filter: grayscale(0);
+  -ms-filter: grayscale(0);
+  -moz-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
 .toys_wrap {
   /*border: 3px solid #6c3d16;*/
   display: flex;

@@ -125,7 +125,22 @@ nav a {
 
 /* Space out content a bit */
 body {
-  padding-top: 20px;
+  /*padding-top: 20px;*/
+}
+
+.top-panel-wrap {
+  padding: 0 10px 0 10px;
+  background: rgba(255, 255, 255, 0.75);
+  position: relative;
+  height: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
+.top-panel-link {
+  font-family: "MarckScript-Regular";
+  color: #6c3d16;
+  font-size: large;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
